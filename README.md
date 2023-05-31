@@ -16,24 +16,24 @@ This is a Node.js and MongoDB-based API for managing doctors and patients in a h
 
 1. Clone the repository:
 
-   git clone <repository_url>
+   `git clone <repository_url>`
 
 2. Install dependencies:
 
-   cd hospital-api
-   npm install
+  `cd hospital-api`
+  `npm install`
 
 3. Set up environment variables:
 
    Create a .env file in the root directory and provide the following environment variables:
 
-   PORT=<port_number>
-   db=<mongodb_uri>
-   JWT_SECRET=<jwt_secret>
+   `PORT=<port_number>`
+   `db=<mongodb_uri>`
+   `JWT_SECRET=<jwt_secret>`
 
 4. Start the server:
 
-   npm start
+   `npm start`
 
 ## Testing with Postman
 
