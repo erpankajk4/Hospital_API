@@ -16,7 +16,7 @@ This is a Node.js and MongoDB-based API for managing doctors and patients in a h
 
 1. Clone the repository:
 
-   `git clone <repository_url>`
+   `git clone https://github.com/erpankajk4/Hospital_API.git`
 
 2. Install dependencies:
 
