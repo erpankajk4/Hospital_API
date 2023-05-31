@@ -93,23 +93,23 @@ Note: For protected routes (create_report, all_reports, and reports), include th
 Please ensure that you have MongoDB running and have set up the environment variables correctly before testing the endpoints.
 
 ## Folder Structure
-hospital-api/
-├── config/
-│   └── mongoose.js
-├── controllers/
-│   ├── authController.js
-│   ├── doctorsController.js
-│   ├── patientsController.js
-│   └── reportsController.js
-├── models/
-│   ├── Doctor.js
-│   ├── Patient.js
-│   └── Report.js
-├── routes/
-│   ├── doctors.js
-│   ├── patients.js
-│   └── reports.js
-├── index.js
-├── auth.js
-└── .env
+hospital-api/</br>
+├── config/</br>
+│   └── mongoose.js</br>
+├── controllers/</br>
+│   ├── authController.js</br>
+│   ├── doctorsController.js</br>
+│   ├── patientsController.js</br>
+│   └── reportsController.js</br>
+├── models/</br>
+│   ├── Doctor.js</br>
+│   ├── Patient.js</br>
+│   └── Report.js</br>
+├── routes/</br>
+│   ├── doctors.js</br>
+│   ├── patients.js</br>
+│   └── reports.js</br>
+├── index.js</br>
+├── auth.js</br>
+└── .env</br>
 
