@@ -27,9 +27,9 @@ This is a Node.js and MongoDB-based API for managing doctors and patients in a h
 
    Create a .env file in the root directory and provide the following environment variables:
 
-   `PORT=<port_number>`
-   `db=<mongodb_uri>`
-   `JWT_SECRET=<jwt_secret>`
+   `PORT=<port_number>`</br>
+   `db=<mongodb_uri>`</br>
+   `JWT_SECRET=<jwt_secret>`</br>
 
 4. Start the server:
 
@@ -45,7 +45,7 @@ To test the API endpoints, you can use Postman. Here are the steps to test the e
 - Request Body:
   - username (string): Doctor's username
   - password (string): Doctor's password
-  **Body:** `{ "username": "doctor_username", "password": "doctor_password" }`
+  **Body:**</br> `{ "username": "doctor_username", "password": "doctor_password" }`
 
 ### Login a Doctor
 
@@ -53,7 +53,7 @@ To test the API endpoints, you can use Postman. Here are the steps to test the e
 - Request Body:
   - username (string): Doctor's username
   - password (string): Doctor's password
-  **Body:** `{ "username": "doctor_username", "password": "doctor_password" }`
+  **Body:**</br> `{ "username": "doctor_username", "password": "doctor_password" }`
 - Response: The response will include a JWT token that needs to be included in the headers for protected routes.
 
 ### Register a Patient
@@ -61,7 +61,7 @@ To test the API endpoints, you can use Postman. Here are the steps to test the e
 - Endpoint: POST /patients/register
 - Request Body:
   - phoneNumber (string): Patient's phone number
-**Body:** `{ "phoneNumber": "patient_phoneNumber" }`
+**Body:**</br> `{ "phoneNumber": "patient_phoneNumber" }`
 
 ### Create a Report for a Patient
 
@@ -71,7 +71,7 @@ To test the API endpoints, you can use Postman. Here are the steps to test the e
 - Request Body:
   - doctorId (string): Doctor ID
   - status (string): Report status (Negative, Travelled-Quarantine, Symptoms-Quarantine, Positive-Admit)
-  **Body:** `{ "doctorId": "doctor_d","status": "Positive-Admit" }`
+  **Body:**</br> `{ "doctorId": "doctor_d","status": "Positive-Admit" }`
 
 ### Get All Reports of a Patient
 
